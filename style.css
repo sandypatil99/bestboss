@@ -1,0 +1,65 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uw4-CEhsgtBe1cFi7a75KPAwLpGiHTX1cA&usqp=CAU");
+  }
+  
+  .clock{
+    text-align : center;
+    margin-top: 25%;
+    margin-left: 10%;
+    transform-origin: 50% 50%;
+   
+  }
+  
+  #digital_clock{
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFAE7;
+  }
+  
+  
+  #center_box{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 140px;   
+  }
+  
+  #center_outer_box{
+    height: 250px;
+    width: 250px;
+    opacity: 0.6;
+    border-radius: 50%;
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #B2C8DF;
+    background-color: #404258;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  #rectangle_fourth,#rectangle_first,#rectangle_second,#rectangle_third{
+    border-radius: 50%;
+    height: 4px;
+    width: 110px;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 35px;
+    transform-origin: 100% 50%;
+  }
+  
+  #rectangle_first{
+    background-color: #B2C8DF;
+  }
+  
+  #rectangle_second {
+   /* background-color: #81C6E8;
+   */
+     background-color: orange;
+}
+  
+  #rectangle_third {
+    background-color: #6E85B7;
+  }
